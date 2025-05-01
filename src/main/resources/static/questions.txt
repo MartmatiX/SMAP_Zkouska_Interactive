@@ -1,0 +1,68 @@
+1.	Definujte strojové učení a vysvětlete rozdíl mezi strojovým učením a klasickým programováním.
+2.	Popište strojové učení s učitelem a bez učitele, uveďte příklady metod.
+3.	Vysvětlete princip jedné metody strojového učení s učitelem a uveďte konkrétní úlohu, v níž lze metodu využít.
+4.	Vysvětlete princip jedné metody strojového učení bez učitele a uveďte konkrétní úlohu, v níž lze metodu využít.
+5.	Popište rozdíly mezi biologickou a umělou neuronovou sítí.
+6.	Popište základní architekturu a fungování umělé neuronové sítě.
+7.	Jmenujte a nakreslete aktivační funkce nejčastěji používané v neuronových sítích.
+8.	Popište percetron a jeho učení.
+9.	Vysvětlete pojmy klasifikace a klasifikátor, popište typy klasifikace obrazu.
+10.	Vysvětlete rozdíl mezi detekcí, lokalizací a segmentací (ve vztahu k obrazovým datům).
+11.	Vysvětlete, jak (pomocí čeho) se hodnotí úspěšnost klasifikačního modelu do více tříd.
+12.	Vysvětlete, proč klasické algoritmy strojového učení (např. náhodné lesy nebo metoda k nejbližších sousedů) nejsou vhodné ke zpracování obrazových dat.
+13.	Vysvětlete princip konvolučních neuronových sítí.
+14.	Vysvětlete pojem konvoluce (ve vztahu ke zpracování obrazu).
+15.	Popište architekturu konvoluční neuronové sítě.
+16.	Popište architekturu sítě AlexNet.
+17.	Popište metody segmentace obrazu.
+18.	Uveďte hlavní aplikační oblasti, v nichž se uplatňují metody segmentace obrazu.
+19.	Vysvětlete hlavní problémy spojené s tvorbou vlastního modelu učení z obrazových dat.
+20.	Popište databázi ImageNet a její význam pro rozvoj metod učení z obrazových dat.
+21.	Vysvětlete princip přeneseného učení (transfer learning).
+22.	Vysvětlete význam hyperparametrů při trénování neuronové sítě.
+23.	Vysvětlete, v čem spočívají limity přeneseného učení.
+24.	Vysvětlete pojem augmentace obrazových dat, uveďte běžné metody.
+25.	Popište model VGG16.
+26.	Popište model U-Net.
+27.	Popište model ResNet.
+28.	Popište princip neuronových sítí typu GAN a jejich typické využití.
+29.	Popište fungování a učení generátoru a detektoru v GAN.
+30.	Vysvětlete spojitost GAN s teorií her.
+31.	Popište rozdíly mezi GAN a konvolučními neuronovými sítěmi.
+32.	Jmenujte důležité typy sítí GAN.
+33.	Popište hlavní princip transformátorů vidění (vision transformers) a jeho typické využití.
+34.	Popište fungování mechanismu pozornosti v transformátoru vidění.
+35.	Popište rozdíly mezi transformátorem vidění a konvolučními neuronovými sítěmi.
+36.	Popište aktuální trendy ve vývoji metod a aplikací strojového učení z obrazových dat.
+1.	Popište, čím se zabývá zpracování přirozeného jazyka.
+2.	Popište, čím se vyznačují symbolové (resp. lexikonové) metody zpracování přirozeného jazyka a jaké mají výhody a nevýhody.
+3.	Popište, čím se vyznačují statistické metody zpracování přirozeného jazyka a jaké mají výhody a nevýhody.
+4.	Popište, čím se vyznačují metody zpracování přirozeného jazyka založené na neuronových sítích a jaké mají výhody a nevýhody.
+5.	Popište, čím se vyznačují transformátorové metody zpracování přirozeného jazyka a jaké mají výhody a nevýhody.
+6.	Popište účel analýzy sentimentu a stručně popište proces od předzpracování textu po samotnou analýzu pomocí jedné vybrané metody (kromě velkých jazykových modelů).
+7.	Popište tokenizaci a jak se používá.
+8.	Popište, co je stematizace a lemmatizace, jak se liší a kde se používají.
+9.	Popište vektorizaci, uveďte a vysvětlete princip alespoň dvou technik využívaných k vektorizaci.
+10.	Popište naivní Bayesovský klasifikátor a jeho princip.
+11.	Popište metodu podpůrných vektorů a její princip.
+12.	Popište rekurentní neuronové sítě a jejich princip.
+13.	Vysvětlete problém zmizelého gradientu a jak je možné mu předejít.
+14.	Stručně popište proces zpracování textu velkým jazykovým modelem (LLM).
+15.	Popište embedding a jaký je jeho cíl.
+16.	Vymyslete alespoň dva jednoduché příklady aritmetiky se slovy, kterou umožňuje word embedding.
+17.	Popište, co je velikost kontextu a jak ovlivňuje využívání velkého jazykového modelu (LLM).
+18.	Popište, na jakém principu pracuje word embedding ve velkém jazykovém modelu (LLM) a co je jeho vstupem a výstupem.
+19.	Popište, jak ve velkém jazykovém modelu (LLM) probíhá unembedding a jaký výstup z něj získáme.
+20.	Vysvětlete alespoň jednu metodu používanou po unembeddingu ve velkém jazykovém modelu (LLM) k ovlivnění výběru finálního slova či tokenu.
+21.	Vysvětlete, jak a v jaké fázi procesu ovlivňuje parametr temperature výstup velkého jazykového modelu (LLM).
+22.	Vysvětlete princip a účel attention vrstvy ve velkém jazykovém modelu (LLM).
+23.	Vysvětlete, jak a v jaké fázi zpracování textu velkým jazykovým modelem (LLM) se mění význam slova či tokenu na základě kontextu okolních slov.
+24.	Vysvětlete princip a účel perceptronové vrstvy ve velkém jazykovém modelu (LLM).
+25.	Vysvětlete, jak a v jaké fázi zpracování textu velkým jazykovým modelem (LLM) se do generovaného textu promítají informace a znalosti získané při trénování modelu.
+26.	Vysvětlete, co pro velký jazykový model znamená počet dimenzí vektorů a jak ovlivňuje využívání modelu.
+27.	Popište, co je Langchain a jaký je jeho účel.
+28.	Vysvětlete, jak ve velkém jazykovém modelu (LLM) funguje paměť a jak ji lze řešit v chatovacích aplikacích.
+29.	Vysvětlete, co je RAG a k čemu se využívá.
+30.	Vysvětlete, jak můžeme dát velkému jazykovému modelu (LLM) k dispozici velké množství textu či dokumentů, aniž bychom byli omezeni velikostí kontextu.
+31.	Popište, jak funguje databáze vektorů (vector store) a k čemu ji lze využít.
+32.	Popište, co umožňují agenti (z frameworku Langchain) pro aplikace s velkými jazykovými modely (LLM).
